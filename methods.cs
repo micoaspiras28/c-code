@@ -18,7 +18,7 @@ namespace methods{
     }
 
     static void SayHi(){
-      Console.WriteLine("Hello" + name)
+      Console.WriteLine("Hello" + name);
     }
   }
 }
