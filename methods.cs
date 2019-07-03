@@ -13,7 +13,7 @@ namespace methods{
 
       SayHi("Mico", 33);
       SayHi("John", 12);
-      SayHi("Michael", 34)
+      SayHi("Michael", 34);
       Console.Readline();
     }
 
