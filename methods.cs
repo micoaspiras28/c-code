@@ -11,14 +11,14 @@ namespace methods{
     static void Main(string[] args){
       //This methods allow user to say hi!
 
-      SayHi("Mico");
-      SayHi("John");
-      SayHi("Michael")
+      SayHi("Mico", 33);
+      SayHi("John", 12);
+      SayHi("Michael", 34)
       Console.Readline();
     }
 
-    static void SayHi(){
-      Console.WriteLine("Hello" + name);
+    static void SayHi(string name, int age){
+      Console.WriteLine("Hello" + name + "you are " + age);
     }
   }
 }
