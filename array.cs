@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace array{
+
   class Program{
+
     static void Main(string[] args){
 
       int[] luckyNumbers = {9, 10, 5, 7, 4, 3, 2, 39};
